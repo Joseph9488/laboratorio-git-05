@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="14" stylesheets="@../tema.css" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="com.sistemasaludador.ui.solicitud.SolicitudDatosController">
+    <padding>
+        <Insets bottom="24" left="28" right="28" top="24"/>
+    </padding>
+
+    <fx:define>
+        <ToggleGroup fx:id="periodoGroup"/>
+    </fx:define>
+
+    <Label styleClass="titulo" text="Solicitud de datos"/>
+    <Label styleClass="subtitulo" text="Ingresa tu nombre, edad y si es AM o PM."/>
+
+    <VBox spacing="6">
+        <Label text="Nombre"/>
+        <TextField fx:id="nombreField" promptText="Ej. Ana López"/>
+    </VBox>
+
+    <VBox spacing="6">
+        <Label text="Edad"/>
+        <TextField fx:id="edadField" promptText="Ej. 20"/>
+    </VBox>
+
+    <VBox spacing="6">
+        <Label text="Hora"/>
+        <HBox spacing="16">
+            <RadioButton fx:id="amRadio" mnemonicParsing="false" text="AM" toggleGroup="$periodoGroup"/>
+            <RadioButton fx:id="pmRadio" mnemonicParsing="false" text="PM" toggleGroup="$periodoGroup"/>
+        </HBox>
+    </VBox>
+
+    <Label fx:id="errorLabel" styleClass="error" text=""/>
+
+    <HBox alignment="CENTER_RIGHT" spacing="10">
+        <Button cancelButton="true" onAction="#onCancelar" styleClass="secundario" text="Cancelar"/>
+        <Button defaultButton="true" onAction="#onAceptar" text="Aceptar"/>
+    </HBox>
+</VBox>

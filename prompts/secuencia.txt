@@ -1,0 +1,51 @@
+Secuencia de prompts usados para el Sistema Saludador
+
+---
+
+1.
+
+(No hagas codigo aun, necesito primero una explicacion) Debo hacer una aplicacion de escritorio o .exe supondria yo. La tecnologia debe ser Java/Java FX.
+
+Se trata de un sistema saludador, un estudiante el cual le piden los datos y solicita un saludo a partir de un botón, que podriamos hacer
+
+---
+
+2.
+
+Me dieron ciertas caracteristicas a tomar en cuenta
+
+1. El estudiante hace clic en solicitar saludo
+2. El sistema solicita el nombre, edad, hora (AM/PM)
+3. El estudiante ingresa lo solicitado
+4. El sistema saluda al estudiante por su nombre y menciona su edad
+
+---
+
+3.
+
+Recuerda que debe ser un codigo limpio y preparado para algun tipo de inclusion futura, podemos empezar con el primer paso para analizar como funciona el codigo
+
+---
+
+4.
+
+Ok, sigamos con el siguiente paso
+
+---
+
+5.
+
+Me estoy quedando sin tokens necesito que termines el ultimo paso y me des una explicación de cada función
+
+---
+
+6.
+
+Demuestrame que los requisitos de esta imagen funcionan.
+Se adjunta foto del pizarrón con el modelo de requerimientos y los entregables:
+
+- Usar Cursor (IDE)
+- Enlace al repositorio con el código
+- Descripción en el README de cómo se ejecuta el software
+- Carpeta "prompts" con la secuencia de prompts utilizados (.txt)
+- Documento de reflexión sobre lo realizado (.md): retos, estructura del software, descubrimientos, comandos/librerías no comprendidos, sorpresas
