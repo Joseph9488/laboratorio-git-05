@@ -47,8 +47,6 @@ $env:JAVA_HOME = "C:\Program Files\Java\jdk-26.0.2.1"
 empaquetar.cmd
 ```
 
-El resultado queda en `dist\SistemaSaludador\SistemaSaludador.exe`. Hay que copiar **toda** esa carpeta; el `.exe` no funciona solo.
-
 ## Estructura
 
 ```
