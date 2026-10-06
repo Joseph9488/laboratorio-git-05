@@ -4,7 +4,7 @@ Aplicación de escritorio en **Java / JavaFX**. El estudiante solicita un saludo
 
 ## Requisitos
 
-- JDK 24 o superior (en este equipo se usó JDK 26).
+- JDK 
 - Variable de entorno `JAVA_HOME` apuntando al JDK. Si no está definida, `ejecutar.cmd` usa:
 
   `C:\Program Files\Java\jdk-26.0.2.1`
